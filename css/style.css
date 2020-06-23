@@ -1,0 +1,393 @@
+:root {
+  --basic-red: #FB565A;
+  --red: #E74246;
+  --dark-red: #D7373B;
+  --basic-green: #00CA74;
+  --green: #00BC6C;
+  --dark-green: #00AA62;
+  --basic-yellow: #EFC84A;
+  --yellow: #EAB534;
+  --dark-yellow: #E5A722;
+  --white: #FFFFFF;
+  --black: #000000;
+  --antracit: #283136;
+  --basic-grey: #EEEEEE;
+  --grey: #DFDFDF;
+  --basic-grey: #D7DCDE;
+  --dark-grey: #D5D5D5;
+  --telegrey: #888888;
+  --light-grey: #E1E1E1;
+  --silver: #B4B9BB;
+  --super-grey: #DBDBDB;
+  --dark-blue: #444444;
+}
+
+body {
+  min-width: 1280px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--black);
+  background-color: var(--telegrey);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-header {
+  background-color: var(--basic-grey);
+}
+
+.main-menu-items {
+  font-family: "Roboto", "Arial", sans-serif;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* color и font-size унаследуются из параметров body */
+.main-menu-items:hover {
+  font-family: "Roboto", "Arial", sans-serif;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--basic-red);
+}
+
+.main-menu-items:active {
+  font-family: "Roboto", "Arial", sans-serif;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  opacity: 0.3;
+}
+
+/* Не знаю как определить текущий (активный) элемент: */
+.main-menu-current: {
+  font-family: "Roboto", "Arial", sans-serif;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-bottom: medium solid var(--basic-red);
+  /*в фигме нет толщины границы, поэтому примерно поставил */
+}
+
+.about-company-btn {
+  font-family: "Roboto", "Arial", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--basic-red);
+}
+
+.about-company-btn:hover {
+  background: var(--red);
+}
+
+.about-company-btn:active {
+  background: var(--dark-red);
+}
+
+.order-site-btn {
+  font-family: "Roboto", "Arial", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--basic-red);
+}
+
+.order-site-btn:hover {
+  background: var(--red);
+}
+
+.order-site-btn:active {
+  background: var(--dark-red);
+}
+
+.order-application-btn {
+  font-family: "Roboto", "Arial", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--basic-green);
+}
+
+.order-application-btn:hover {
+  background: var(--green);
+}
+
+.order-application-btn:active {
+  background: var(--dark-green);
+}
+
+.order-presentation-btn {
+  font-family: "Roboto", "Arial", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--basic-yellow);
+}
+
+.order-presentation-btn:hover {
+  background: var(--yellow);
+}
+
+.order-presentation-btn:active {
+  background: var(--dark-yellow);
+}
+
+.social-button {
+  width: 81px;
+  height: 81px;
+  background: var(--light-grey);
+}
+
+.social-button:hover {
+  background: var(--red);
+}
+
+.social-button:active {
+  background: var(--dark-red);
+}
+
+.close-btn {
+  background: var(--basic-red);
+  opacity: 0.6;
+}
+
+.close-btn:hover {
+  background: var(--basic-red);
+}
+
+.close-btn:active {
+  background: var(--basic-red);
+  opacity: 0.3;
+}
+
+.appointment-item input {
+  font-family: "Roboto", "Arial", sans-serif;
+  font: inherit;
+  background-color: var(--white);
+  border: 2px solid var(--basic-grey);
+  border-radius: 3px;
+}
+
+.appointment-item input:hover {
+  border-color: var(--silver);
+}
+
+.appointment-item input:focus {
+  border-color: var(--black);
+}
+
+.appointment-item input:invalid {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.filter-btn {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  background-color: var(--basic-grey);
+  border-radius: 3px;
+}
+
+.filter-btn:hover {
+  background-color: var(--grey);
+  border-radius: 3px;
+}
+
+.filter-btn:active {
+  background-color: var(--dark-grey);
+  border-radius: 3px;
+  opacity: 0.3;
+}
+
+.filter-item {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--antracit);
+  opacity: 0.6;
+}
+
+.filter-item:hover {
+  color: var(--antracit);
+}
+
+/* когда заблокировано поле */
+.filter-item:invalid {
+  color: var(--antracit);
+  opacity: 0.3;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item-current {
+  font: inherit;
+  color: inherit;
+  background-color: var(--white);
+  border: 3px solid var(--super-grey);
+}
+
+.pagination-item {
+  font: inherit;
+  color: inherit;
+  background-color: var(--basic-grey);
+  border-radius: 3px;
+}
+
+.pagination-item:hover {
+  background-color: var(--grey);
+  border-radius: 3px;
+}
+
+.pagination-item:active {
+  background-color: var(--dark-grey);
+  border-radius: 3px;
+  opacity: 0.3;
+}
+
+.sort-by {
+  list-style: none;
+}
+
+.sort-by-item {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  opacity: 0.3;
+}
+
+.sort-by-item:hover {
+  opacity: 0.6;
+}
+
+.sort-by-item:active {
+  opacity: 0;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.principles {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.tagline {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: var(--antracit);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.product-type {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: bold;
+  color: inherit;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.about-company {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.services {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.approach {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.approach-items {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: var(--antracit);
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.figure {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.percent {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.footer-tagline {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.footer-promo {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: var(--dark-blue);
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.logo:active {
+  opacity: 0.3;
+}
+
+.header-item {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.filter-name {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: inherit;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
