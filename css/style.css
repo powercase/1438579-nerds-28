@@ -47,15 +47,12 @@ img {
 }
 
 .main-menu-items {
-  font-family: "Roboto", "Arial", sans-serif;
   line-height: 30px;
   text-transform: uppercase;
   font-weight: 500;
 }
 
-/* color и font-size унаследуются из параметров body */
 .main-menu-items:hover {
-  font-family: "Roboto", "Arial", sans-serif;
   line-height: 30px;
   text-transform: uppercase;
   font-weight: 500;
@@ -63,25 +60,20 @@ img {
 }
 
 .main-menu-items:active {
-  font-family: "Roboto", "Arial", sans-serif;
   line-height: 30px;
   text-transform: uppercase;
   font-weight: 500;
   opacity: 0.3;
 }
 
-/* Не знаю как определить текущий (активный) элемент: */
 .main-menu-current: {
-  font-family: "Roboto", "Arial", sans-serif;
   line-height: 30px;
   text-transform: uppercase;
   font-weight: 500;
-  border-bottom: medium solid var(--basic-red);
-  /*в фигме нет толщины границы, поэтому примерно поставил */
+  border-bottom: 2px solid var(--basic-red);
 }
 
 .about-company-btn {
-  font-family: "Roboto", "Arial", sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: var(--white);
@@ -97,7 +89,6 @@ img {
 }
 
 .order-site-btn {
-  font-family: "Roboto", "Arial", sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: var(--white);
@@ -113,7 +104,6 @@ img {
 }
 
 .order-application-btn {
-  font-family: "Roboto", "Arial", sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: var(--white);
@@ -129,7 +119,6 @@ img {
 }
 
 .order-presentation-btn {
-  font-family: "Roboto", "Arial", sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: var(--white);
@@ -173,8 +162,6 @@ img {
 }
 
 .appointment-item input {
-  font-family: "Roboto", "Arial", sans-serif;
-  font: inherit;
   background-color: var(--white);
   border: 2px solid var(--basic-grey);
   border-radius: 3px;
@@ -194,8 +181,6 @@ img {
 }
 
 .filter-btn {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   background-color: var(--basic-grey);
   border-radius: 3px;
 }
@@ -212,7 +197,6 @@ img {
 }
 
 .filter-item {
-  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: var(--antracit);
@@ -234,15 +218,11 @@ img {
 }
 
 .pagination-item-current {
-  font: inherit;
-  color: inherit;
   background-color: var(--white);
   border: 3px solid var(--super-grey);
 }
 
 .pagination-item {
-  font: inherit;
-  color: inherit;
   background-color: var(--basic-grey);
   border-radius: 3px;
 }
@@ -263,8 +243,6 @@ img {
 }
 
 .sort-by-item {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -284,40 +262,31 @@ img {
 }
 
 .principles {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
 }
 
 .tagline {
-  font-family: "Roboto", "Arial", sans-serif;
   color: var(--antracit);
   font-size: 16px;
   line-height: 24px;
 }
 
 .product-type {
-  font-family: "Roboto", "Arial", sans-serif;
   font-weight: bold;
-  color: inherit;
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
 }
 
 .about-company {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   font-weight: 500;
   font-size: 45px;
   line-height: 45px;
 }
 
 .services {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -325,8 +294,6 @@ img {
 }
 
 .approach {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -334,38 +301,30 @@ img {
 }
 
 .approach-items {
-  font-family: "Roboto", "Arial", sans-serif;
   color: var(--antracit);
   font-size: 16px;
   line-height: 18px;
 }
 
 .figure {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   font-weight: bold;
   font-size: 45px;
   line-height: 64px;
 }
 
 .percent {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   font-weight: bold;
   font-size: 26px;
   line-height: 40px;
 }
 
 .footer-tagline {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
 }
 
 .footer-promo {
-  font-family: "Roboto", "Arial", sans-serif;
   color: var(--dark-blue);
   font-size: 16px;
   line-height: 22px;
@@ -376,16 +335,12 @@ img {
 }
 
 .header-item {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
 }
 
 .filter-name {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: inherit;
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
