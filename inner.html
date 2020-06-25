@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 
 <head>
   <meta charset="utf-8">
@@ -11,7 +11,7 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="page-body">
   <header class="main-header">
     <a class="logo">
       <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Nerds">
@@ -132,22 +132,24 @@
     <p class="footer-tagline">Давайте дружить, это выгодно!</p>
     <p class="footer-promo">Скидка 10% для друзей из социальных сетей.</p>
   </footer>
+  <div>
+    <button type="button" class="close-btn">x</button>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <p class="appointment-item">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label for="email">Ваш e-mail:</label>
+        <input type="email" id="email" name="email" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="letter">Текст письма:</label>
+        <textarea id="letter" name="letter" placeholder="В свободной форме" rows="5" cols="5"></textarea>
+      </p>
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
 </body>
-<div>
-  <button type="button" class="close-btn">x</button>
-  <form action="https://echo.htmlacademy.ru" method="post">
-    <p class="appointment-item">
-      <label for="name">Ваше имя:</label>
-      <input type="text" id="name" name="name" placeholder="Имя Фамилия">
-    </p>
-    <p>
-      <label for="email">Ваш e-mail:</label>
-      <input type="email" id="email" name="email" placeholder="email@example.com">
-    </p>
-    <p>
-      <label for="letter">Текст письма:</label>
-      <textarea id="letter" name="letter" placeholder="В свободной форме" rows="5" cols="5"></textarea>
-    </p>
-    <button type="submit">Отправить</button>
-  </form>
-</div>
+
+</html>
