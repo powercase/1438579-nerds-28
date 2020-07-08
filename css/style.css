@@ -704,11 +704,7 @@ justify-content: space-around;
   /* outline: 2px solid green; */
 }
 
-.filter-container {
-  /* outline: 3px solid tomato; */
-  display: flex;
-  flex-direction: column;
-}
+
 
 .catalog-results {
   /* outline: 2px solid black; */
@@ -896,14 +892,8 @@ font-size: 16px;
   line-height: 24px;
 }
 
-.range-form {
-  /* outline: 2px dashed red; */
-  margin-bottom: 54px;
-}
 
-.grid-features {
-  /* outline: 2px dashed black; */
-}
+
 
 .site-navigation li {
   padding-top: 26px;
@@ -963,4 +953,7 @@ font-size: 16px;
 
 .map {
   margin-top: 117px;
+}
+.illustration-width {
+  width: 100%;
 }
