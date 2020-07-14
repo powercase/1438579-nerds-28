@@ -82,9 +82,9 @@
                margin-left: 20%
              "></div>
                   </div>
-                  <div class="toggle toggle-min" tabindex="0" style="
+                  <button type="button" class="toggle toggle-min" tabindex="0" style="
              left: 20%
-           "></div>
+           "></button>
                   <div class="toggle toggle-max" tabindex="0" style="
              left: 50%
            "></div>
@@ -166,11 +166,15 @@
             <li>
               <p class="sorting">Сортировать:</p>
             </li>
-            <li><a class="sort-by-item">По цене</a></li>
+            <li><a class="sort-by-item current-sort">По цене</a></li>
             <li><a class="sort-by-item">По типу</a></li>
             <li><a class="sort-by-item">По названию</a></li>
-            <li class="icon-down"><img src="img/icon-down-dir.svg" width="11" height="10" alt="Стрелочка сортировки вниз"></li>
-            <li class="icon-up-grey"><img src="img/icon-up-grey.svg" width="11" height="10" alt="Стрелочка сортировки вверх"></li>
+            <li class="icon-down"><a href=""><svg class="icon-opacity" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                  <path fill="#ededed" d="M5.5 10L0 0h11" /></svg></a></li>
+            <li class="icon-up-grey"><a href=""><svg class="icon-opacity" width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.5 0L0 10H11L5.5 0Z" fill="#ededed" />
+                </svg>
+              </a></li>
           </ul>
 
 
@@ -180,21 +184,63 @@
           <ul class="catalog-list">
             <li class="catalog-item">
               <img src="img/img-sedona-catalog.png" width="100%" height="576" alt="Логотип Sedona">
+              <div class="catalog-block">
+                <a href="">
+                  <h2 class="catalog-header">sedona</h2>
+                </a>
+                <p class="catalog-text">Информационный сайт для туристов</p>
+                <a href="" class="catalog-price">9 900 Р<a>
+              </div>
             </li>
             <li class="catalog-item">
               <img src="img/img-pink-catalog.png" width="100%" height="576" alt="Логотип Pink">
+              <div class="catalog-block">
+                <a href="">
+                  <h2 class="catalog-header">pink app</h2>
+                </a>
+                <p class="catalog-text">Продуктовый лендинг Приложения для IOS и Android</p>
+                <a href="" class="catalog-price">9 900 Р<a>
+              </div>
             </li>
             <li class="catalog-item">
               <img src="img/img-barbershop-catalog.png" width="100%" height="582" alt="Логотип Barbershop">
+              <div class="catalog-block">
+                <a href="">
+                  <h2 class="catalog-header">barbershop</h2>
+                </a>
+                <p class="catalog-text">Сайт салона красоты. Для мужчин, да.</p>
+                <a href="" class="catalog-price">9 900 Р<a>
+              </div>
             </li>
             <li class="catalog-item">
               <img src="img/img-mishka-catalog.png" width="100%" height="580" alt="Логотип Mishka">
+              <div class="catalog-block">
+                <a href="">
+                  <h2 class="catalog-header">mishka</h2>
+                </a>
+                <p class="catalog-text">Интернет-магазин вязаных игрушек.</p>
+                <a href="" class="catalog-price">9 900 Р<a>
+              </div>
             </li>
             <li class="catalog-item">
               <img src="img/img-aplus-catalog.png" width="100%" height="582" alt="Логотип Aplus">
+              <div class="catalog-block">
+                <a href="">
+                  <h2 class="catalog-header">a plus</h2>
+                </a>
+                <p class="catalog-text">Лендинг курсов повышения квалификации</p>
+                <a href="" class="catalog-price">9 900 Р<a>
+              </div>
             </li>
             <li class="catalog-item">
               <img src="img/img-kvast-catalog.png" width="100%" height="580" alt="Логотип Kvast">
+              <div class="catalog-block">
+                <a href="">
+                  <h2 class="catalog-header">кваст</h2>
+                </a>
+                <p class="catalog-text">Промо-сайт производителя крафтового кваса</p>
+                <a href="" class="catalog-price">9 900 Р<a>
+              </div>
             </li>
           </ul>
 
@@ -229,14 +275,14 @@
 
         <section class="info-box">
           <h2 class="info-box-item">nёrds design studio</h2>
-          <p class="info-text">191186, Санкт-Петербург, ул. Б. Конюшенная ул., дом 19/8</p>
+          <p class="info-text">191186, Санкт-Петербург, ул.&nbsp;Б.&nbsp;Конюшенная, д. 19/8</p>
           <a href="tel:+78122757575" class="phone">тел. +7 (812) 275-75-75</a>
           <a href="" type="button" class="write-us-btn">напишите нам</a>
         </section>
 
 
         <h2 class="visually-hidden">Как до нас добраться (карта)</h2>
-        <img src="img/group-map.png" width="1440" height="416" alt="191186, Санкт-Петербург, ул. Б. Конюшенная ул., дом 19/8">
+        <img src="img/group-map.png" width="1440" height="416" alt="191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
         <button type="button" class="visually-hidden">Закрыть</button>
       </section>
 
