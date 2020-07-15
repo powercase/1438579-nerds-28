@@ -162,66 +162,12 @@ font-size: 16px;
   border-bottom: 2px solid var(--basic-red);
 }
 
-/* .studio {
+
+
+
+.current-page {
   position: relative;
 }
-
-
-.studio::after {
-  position: absolute;
-  background-color: var(--basic-red);
-  display: block;
-  content: "";
-  width: 61px;
-  height: 2px;
-  bottom: -13px;
-  right: 0px;
-  display: none;
-} */
-
-/* .clients {
-  position: relative;
-} */
-
-/* .clients::after {
-  position: absolute;
-  background-color: var(--basic-red);
-  display: block;
-  content: "";
-  width: 76px;
-  height: 2px;
-  bottom: -13px;
-  right: 0px;
-  display: none;
-} */
-/* .shop {
-  position: relative;
-}
-.shop::after {
-  position: absolute;
-  background-color: var(--basic-red);
-  display: block;
-  content: "";
-  width: 74px;
-  height: 2px;
-  bottom: -13px;
-  right: 0px;
-  display: none;
-} */
-/* .contacts {
-  position: relative;
-}
-.contacts::after {
-  position: absolute;
-  background-color: var(--basic-red);
-  display: block;
-  content: "";
-  width: 83px;
-  height: 2px;
-  bottom: -13px;
-  right: 0px;
-  display: none;
-} */
 
 .current-page::after {
   position: absolute;
@@ -667,11 +613,19 @@ padding-bottom: 43px;
   line-height: 40px;
 }
 
-.footer-tagline {
+.footer-tagline-inner {
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
-  margin-top: 71px;
+  margin-top: 85px;
+  margin-bottom: 10px;
+}
+
+.footer-tagline-main {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  margin-top: 70px;
   margin-bottom: 10px;
 }
 
@@ -712,27 +666,9 @@ margin-top: 80px;
   position: absolute;
   width: 15px;
   height: 15px;
-  /* background-repeat: no-repeat;
-  background-position: 0 0; */
   top: 2px;
   right: 97px;
-  /* opacity: 0.3; */
 }
-
-.cart::after {
-  position: absolute;
-  background-color: var(--basic-red);
-  display: block;
-  content: "";
-  width: 112px;
-  height: 2px;
-  bottom: -13px;
-  right: 0px;
-  display: none;
-}
-
-
-
 
 .index-columns {
   display: grid;
@@ -872,6 +808,7 @@ justify-content: space-between;
   /* outline: 2px solid orange; */
   justify-content: space-between;
   padding: 0px;
+  margin-top: 25px;
 }
 
 .slider-list {
